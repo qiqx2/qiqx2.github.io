@@ -11,9 +11,9 @@
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
   	<script src="/cdn-cgi/apps/head/UB93bGI0DlPa0ptzUL0sNU9AAlY.js"></script><script type="8493672bc564ea566e9ccfb1-">
 	function myFunction() {
-		var phonenumber = prompt("ألصق رابط السورس وسوف ينقلك لتثبيته في السيديا بكل سهولة", "");
+		var phonenumber = prompt("ادخل رقم الجوال مع رمز الدولة بدون ال+ او صفر قبل بداية الرقم، مثال : 9665 ", "");
 		if (phonenumber != null) {
-			window.location.href = "cydia://url/https://cydia.saurik.com/api/share#?source="+phonenumber;
+			window.location.href = "https://api.whatsapp.com/send?phone="+phonenumber;
 		}
 	}
 	</script>
