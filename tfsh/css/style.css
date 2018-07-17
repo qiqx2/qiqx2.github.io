@@ -3,6 +3,14 @@
 Primary style
 
 -------------------------------- */
+html { 
+  background: url(https://video-images.vice.com/_uncategorized/1512373627349-Milkyway.jpeg?resize=1050:*) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} 
+
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
